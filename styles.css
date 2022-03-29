@@ -4,6 +4,27 @@ body {
     background: #14495e;
   }
 
+.text-block {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+  }
+.face {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: rgb(238, 253, 103);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #111;
+    border-radius: 50%;
+  }
+
 .eyes {
     position: absolute;
     top: 50%;
